@@ -1,0 +1,1353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Core_dialect/master/Schemas/TBXcoreStructV03_TBX-Core_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Core_dialect/master/Schemas/TBX-Core.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tbx style="dca" type="TBX-Core" xml:lang="en" xmlns="urn:iso:std:iso:30042:ed-2">
+	<tbxHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>MultiTerm Termbase TBX File</title>
+			</titleStmt>
+			<sourceDesc>
+				<p>Converted from MultiTerm XML</p>
+			</sourceDesc>
+		</fileDesc>
+	</tbxHeader>
+	<text>
+		<body>
+			<conceptEntry id="c1">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>(non-)stationarity</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>(no) estacionaridad</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c2">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>actual departure</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>desviación real</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c3">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Actual No.</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>N.° real</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c4">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>American Depository Receipt</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>Recibos de Depósito Americanos (ADR)</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c5">
+				<term>sociedad estadounidense de valuadores</term>
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>american society of appraissers</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>sociedad estadounidense de valuadores</term>
+						<note>ME</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c6">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>annual report</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>memoria anual</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c7">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>appraissal</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>evaluación</term>
+						<note>ME</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c8">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>arm's-length</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>independiente / en forma independiente</term>
+						<note>ME</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c9">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>array</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>matriz</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c10">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Assistant professor</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>profesor auxiliar</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c11">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>assumption</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>supuesto, planteo</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c12">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>asymptotic slope</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>pendiente asintótica</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c13">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>bias</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>sesgo</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c14">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>blue chips / blue-chips stocks</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>acciones de primera línea</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c15">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>book value</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>valor libro</term>
+						<note>ME</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c16">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>broker</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>agente de bolsa</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c17">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>business</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>sociedad comercial</term>
+						<note>ME</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c18">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>business valuation standards</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>normas de valuación comercial</term>
+						<note>ME</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c19">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>buy-and-hold</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>compra y retención (de valores, a largo plazo)</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c20">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>central-limit theorem</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>teorema del límite central</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c21">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>charter</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>acta constitutiva</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c22">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>chartist</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>analista bursátil</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c23">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Chief Financial Officer (CFO)</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>Máxima autoridad financiera</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c24">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>claimant</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>demandante</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c25">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>common stock / common share</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>acción común</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c26">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>compounding</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>capitalizacion continua</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c27">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>computing</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>cálculo</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c28">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>concrete</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>concreto</term>
+						<note>ME: Técnicamente es hormigón, pero todos le dicen concreto, y en
+            la página de Cemex lo usan como concreto.</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c29">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>cross-sectional</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>transversal</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c30">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>cumulative distribution function (c.d.f.)</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>función de distribución acumulada (FDA)</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c31">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>demerger</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>escisión</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c32">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>development land</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>suelo urbanizable</term>
+						<note>ME</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c33">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>differencing interval</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>intervalo de diferenciación</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c34">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>double-log paper</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>papel doble logarítmico</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c35">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Dow theory</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>teoría de Dow</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c36">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Dow-Jones Industrial Average</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>índice Dow-Jones de valores industriales</term>
+						<note>AQ (Source: Diccionario de términos de la bolsa inglés-español,
+            Spanish-English, José Mateo Martínez,
+            http://books.google.com/books?id=DUF6li3qdBcC&amp;pg=PA47&amp;lpg=PA47&amp;dq=glosario+OR+diccionario+%22buy+and+hold%22&amp;source=bl&amp;ots=sOpNZYAFJg&amp;sig=mY9u3WbaewQTRO42I5RpSveqORc&amp;hl=es&amp;ei=0U6yTa6uH8n00gG9_6irCQ&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=6&amp;ved=0CDUQ6AEwBQ#v=snippet&amp;q=industrial%20average&amp;f=false
+            )</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c37">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Dow-Jones Industrials</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>valores industriales del índice Dow-Jones</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c38">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>enterprise</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>empresa</term>
+						<note>ME</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c39">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>ex-dividend</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>sin dividendos</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c40">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Expected No.</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>N.° previsto</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c41">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>fair market value</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>valor justo de mercado</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c42">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>floor trader</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>agente bursátil independiente</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c43">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>fractile</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>fractil</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c44">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>frequency distributions</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>distribuciones de frecuencias</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c45">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Gross Domestic Product (GDP)</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>Producto Interno Bruto (PIB)</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c46">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>hurdle rate</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>tasa de rendimiento mínima</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c47">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>income statement</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>estado de resultado</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c48">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>increasing function</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>función creciente</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c49">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>involve</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>involucrar, incluir, implicar, comprender</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c50">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>lag</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>retraso</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c51">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>leptokurtic</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>leptocúrtico</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c52">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>listed</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>cotizante</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c53">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>log price</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>precio logarítmico</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c54">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>mean change</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>cambio medio</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c55">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Memorandum items</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>Partidas informativas</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c56">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Minus Runs</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>Rachas negativas</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c57">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>No-change Runs</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>Rachas sin cambios</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c58">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>normal probability graphing</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>graficación probabilística normal</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c59">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>normal probability paper</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>papel probabilístico normal</term>
+						<note>AQ (Source: http://isi.cbs.nl/glossary/term2315.htm)</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c60">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>normal probability plot / normal probability graph</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>gráfico de probabilidad normal</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c61">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>null hypothesis</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>hipótesis de nulidad (http://isi.cbs.nl/glossary/term2324.htm)</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c62">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>open-end mutual fund</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>fondo de inversión de duración indefinida</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c63">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>outlier</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>valor extremo</term>
+						<note>AQ (Source: http://isi.cbs.nl/glossary/term2385.htm)</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c64">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>overadjust</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>sobreajustar</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c65">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>overweight / underweight</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>(el) sobre-ponderado / sub-ponderado</term>
+						<note>AQ (María)</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c66">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>percentage price change</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>porcentaje de variación de los precios</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c67">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Plus Runs</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>Rachas positivas</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c68">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>random variable</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>variable aleatoria</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c69">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>random walk</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>recorrido aleatorio</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c70">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>range</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>amplitud</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c71">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>registered shares</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>acciones nominativas</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c72">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>remedy</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>resarcimiento</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c73">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>scatter diagram</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>diagrama de dispersión</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c74">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>second moment</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>segundo momento</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c75">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Securities and Exchange Commission (SEC)</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>Comisión de Bolsa y Valores</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c76">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>security</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>título</term>
+						<note>AQ - (or “valor”, but I’ve used “título” after consulting “Ámbito
+            Financiero” paper, and to avoid confusion with “value”, which also translates as
+            “valor”)</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c77">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>sell (a security) short</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>vender en corto</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c78">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>serial correlation</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>autocorrelación (también “correlación serial”)</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c79">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>significance test</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>prueba de significancia</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c80">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>significance test</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>prueba de significancia</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c81">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>skewness</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>asimetría</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c82">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>stable paretian distributions</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>distribuciones estables de Pareto</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c83">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>standard deviations</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>desviaciones estándar</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c84">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Stock Exchange</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>Bolsa de valores</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c85">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>stock market</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>mercado bursátil</term>
+						<note>AQ (Source:
+            http://157.150.197.21/dgaacs/unterm.nsf/0/$searchForm?SearchView&amp;Seq=1)</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c86">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>stock market trader</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>agente bursátil</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c87">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>stock price</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>precio de la acción</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c88">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>stock splits</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>particiones accionarias?</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c89">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>successive cambios de precios</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>cambios sucesivos de los precios</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c90">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>tail</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>cola (estadística)</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c91">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>tax bracket</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>categoría impositiva</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c92">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>trading day</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>día de negociación</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c93">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>treasury shares</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>acciones de tesorería</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c94">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>underadjust</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>subajustar</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c95">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Unit Normal</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>normal unitario/a</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c96">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>valuation</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>valuación</term>
+						<note>ME</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c97">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>variance / invariance</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>varianza / invarianza</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c98">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>willing buyer/ seller</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>comprador / vendedor dispuesto</term>
+						<note>ME</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c99">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>Winsorization</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>winsorización</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c100">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>yield</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>rendimiento</term>
+						<note>AQ</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c101">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>zoning restriction</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>limitaciones de ordenamiento urbano</term>
+						<note>ME</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+			<conceptEntry id="c102">
+				<langSec xml:lang="EN-GB">
+					<termSec>
+						<term>preferred stockholders</term>
+					</termSec>
+				</langSec>
+				<langSec xml:lang="ES">
+					<termSec>
+						<term>accionistas preferenciales</term>
+						<note>MFT</note>
+					</termSec>
+				</langSec>
+			</conceptEntry>
+		</body>
+	</text>
+</tbx>
